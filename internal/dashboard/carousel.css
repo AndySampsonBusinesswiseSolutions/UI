@@ -1,0 +1,40 @@
+.carousel {
+      margin: 0;
+      box-sizing: border-box;
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      background-color: darkmagenta;
+}
+
+.carousel-row {
+      white-space: nowrap;
+}
+
+.carousel-tile {
+      display: inline-block;
+      width: 16%;
+      cursor: pointer;
+      border-left: solid white 1px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      vertical-align: top;
+      min-height: 100%;
+}
+
+.carousel-tile:hover {
+      color: black;
+}
+
+.carousel-tile:active, .active {
+      background-color: darkorchid;
+}
+
+.carousel-tile:first-of-type {
+      border-left: none;
+}
+
+.carousel-tile * {
+      display: block;
+}
